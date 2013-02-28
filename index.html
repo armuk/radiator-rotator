@@ -18,7 +18,11 @@ var html = '';
 
 config.forEach(function(page) {
 	html += '<div style="width:100%; height:100%">'
-	html += '<iframe src="' + page.url + '" style="border: 0; width:100%; height:100%" />'
+	var style = "border: 0; width:100%; height:100%"
+	if ("scale" in page) {
+		style += ";zoom: " + page.scale + ";-moz-transform: scale( " + page.scale + ");-moz-transform-origin: 0 0;-o-transform: scale( " + page.scale + ");-o-transform-origin: 0 0;-webkit-transform: scale( " + page.scale + ");-webkit-transform-origin: 0 0;"
+	}
+	html += '<iframe src="' + page.url + '" style="' + style + '" />'
 	html += '</div>'
 });
 
