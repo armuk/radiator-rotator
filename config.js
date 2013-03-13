@@ -1,5 +1,6 @@
 var SECONDS = 1000
 var MINUTES = 60 * SECONDS
+var HOURS = 60 * MINUTES
 
 var config = {
 	"pages" : [
@@ -12,6 +13,16 @@ var config = {
  		   	"url" : "http://10.192.42.156/sonar",
 			"scale" : 1.5,
 			"refresh" : 5 * MINUTES
+		},
+		{
+			"id" : "burndown",
+			"url" : "https://skydrive.live.com/embed?cid=0F52BEF860A4A4E4&resid=F52BEF860A4A4E4%211348&authkey=AGUwyvbUsSiMWeA&em=2&wdAllowInteractivity=False&Item=Burndown",
+			"refresh" : 6 * HOURS
+		},
+		{
+			"id" : "cfd",
+			"url" : "https://skydrive.live.com/embed?cid=0F52BEF860A4A4E4&resid=F52BEF860A4A4E4%211348&authkey=AGUwyvbUsSiMWeA&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True",
+			"refresh" : 6 * HOURS
 		}
 	]
 }
