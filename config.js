@@ -17,12 +17,12 @@ var config = {
 		{
 			"id" : "burndown",
 			"url" : "https://skydrive.live.com/embed?cid=0F52BEF860A4A4E4&resid=F52BEF860A4A4E4%211348&authkey=AGUwyvbUsSiMWeA&em=2&wdAllowInteractivity=False&Item=Burndown",
-			"refresh" : 6 * HOURS
+			"refresh" : 2 * HOURS
 		},
 		{
 			"id" : "cfd",
 			"url" : "https://skydrive.live.com/embed?cid=0F52BEF860A4A4E4&resid=F52BEF860A4A4E4%211348&authkey=AGUwyvbUsSiMWeA&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True",
-			"refresh" : 6 * HOURS
+			"refresh" : 2 * HOURS
 		}
 	]
 }
