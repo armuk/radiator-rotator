@@ -6,7 +6,7 @@ var config = {
 	"pages" : [
 		{
 			"id" : "jenkins",
- 		   	"url" : "http://gilder-ci.itvplc.ads/jenkins/plugin/jenkinswalldisplay/walldisplay.html?viewName=upstream&jenkinsUrl=http://10.192.42.156/jenkins"
+ 		   	"url" : "http://gilder-ci.itvplc.ads/jenkins/plugin/jenkinswalldisplay/walldisplay.html?viewName=upstream&jenkinsUrl=http://gilder-ci.itvplc.ads/jenkins"
 		},
 		{
 			"id" : "sonar",
