@@ -5,7 +5,7 @@ var config = {
 	"pages" : [
 		{
 			"id" : "jenkins",
- 		   	"url" : "http://10.192.42.41/jenkins/plugin/jenkinswalldisplay/walldisplay.html?viewName=upstream&jenkinsUrl=http://10.192.42.41/jenkins"
+ 		   	"url" : "https://jenkins.itv.com/cdm//plugin/jenkinswalldisplay/walldisplay.html?viewName=wall&jenkinsUrl=https%3A%2F%2Fjenkins.itv.com%2Fcdm%2F"
 		}
 	]
 }
